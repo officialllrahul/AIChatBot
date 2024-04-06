@@ -1,0 +1,70 @@
+name: aichat
+description: "An AI Assistant(ChatBot, Image generator & Language Translator) App based on ChatGPT."
+
+publish_to: 'none'
+#App Version
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+#dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #IOS Styled Icons
+  cupertino_icons: ^1.0.6
+  #for using lottie animation
+  lottie: ^3.1.0
+  #for hive database
+  hive: ^4.0.0-dev.2
+  isar_flutter_libs: ^4.0.0-dev.13
+  #for Accessing storage path
+  path_provider: ^2.1.0
+  #for state management
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  #for changes app icon
+  icons_launcher: ^2.1.7
+
+flutter:
+#Enable material design
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/
+     - assets/lottie/
+#     - assets/logo
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
